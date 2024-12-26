@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SnowPro.LessonService.Commands\SnowPro.LessonService.Commands.csproj" />
+    <ProjectReference Include="..\SnowPro.LessonService.Core\SnowPro.LessonService.Core.csproj" />
+  </ItemGroup>
+
+</Project>
